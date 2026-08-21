@@ -3,148 +3,160 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Overview of robotics and AI projects by Ferdinand Hartmann.">
-    <title>Ferdinand Hartmann - Projects Overview</title>
+    <meta name="description" content="Robotics and AI projects by Ferdinand Hartmann.">
+    <title>Ferdinand Hartmann - Robotics Projects</title>
     <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js" defer></script>
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <nav class="site-nav" aria-label="Project navigation">
-        <a href="#overview">Overview</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Links</a>
-    </nav>
+    <svg class="icon-sprite" aria-hidden="true" focusable="false">
+        <symbol id="icon-github" viewBox="0 0 24 24">
+            <path d="M12 1.9c-5.6 0-10.1 4.5-10.1 10.1 0 4.5 2.9 8.3 7 9.6.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.2-3.5-1.2-.5-1.2-1.2-1.5-1.2-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.5 2.3 1.1 2.9.8.1-.6.4-1.1.7-1.4-2.3-.3-4.7-1.1-4.7-5 0-1.1.4-2 1-2.8-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1 .8-.2 1.7-.3 2.6-.3.9 0 1.8.1 2.6.3 1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.7 1 2.8 0 3.9-2.4 4.7-4.7 5 .4.3.8 1 .8 2v2.9c0 .3.2.6.7.5 4.1-1.3 7-5.1 7-9.6 0-5.6-4.5-10.1-10.1-10.1z"/>
+        </symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24">
+            <path d="M4.98 3.5c0 1.1-.9 2-2.1 2-1.1 0-2-.9-2-2s.9-2 2-2c1.2 0 2.1.9 2.1 2zM.98 8h3.8v14h-3.8V8zm7 0h3.6v1.9h.1c.5-.9 1.8-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6V22h-3.8v-7.4c0-1.8 0-4-2.5-4s-2.9 1.9-2.9 3.9V22h-3.8V8z"/>
+        </symbol>
+    </svg>
 
-    <header class="hero" id="overview">
-        <div class="hero-media" aria-hidden="true">
-            <img src="./assets/previews/hrc-active-inference.jpg" alt="">
-        </div>
+    <header class="hero">
         <div class="hero-content">
-            <p class="eyebrow">Robotics - AI - Human-Robot Interaction</p>
-            <h1>Project Overview</h1>
-            <p class="hero-copy">A compact overview of selected robotics projects, from deep active inference for collaborative manipulation to humanoid planning, mixed-reality teleoperation, reinforcement learning, and autonomous driving challenge work.</p>
-            <div class="hero-actions" aria-label="Primary links">
-                <a class="button primary" href="#projects">View projects</a>
-                <a class="button secondary" href="https://github.com/ferdinandhartmann">GitHub</a>
+            <div class="hero-copy-block">
+                <p class="eyebrow">Robotics - AI - Human-Robot Interaction</p>
+                <h1>Ferdinand Hartmann</h1>
+                <p class="hero-subtitle">Robotics Projects</p>
+                <p class="hero-copy">Robotics graduate specializing in learning-based robotics, with a strong foundation in mechanical engineering. Experienced in developing and deploying AI-driven robotic systems on real-world platforms with imitation learning, reinforcement learning, and ROS 2. International experience across Germany, France, and Japan through research, industry, and competitive robotics projects.</p>
+                <div class="hero-actions" aria-label="Primary links">
+                    <a class="button primary" href="#projects">View projects</a>
+                    <a class="button secondary icon-link" href="https://github.com/ferdinandhartmann" target="_blank" rel="noopener">
+                        <svg aria-hidden="true"><use href="#icon-github"></use></svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a class="button secondary icon-link" href="https://www.linkedin.com/in/ferdinand-hartmann-709aa4204" target="_blank" rel="noopener">
+                        <svg aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="./assets/profile/ferdinand-cv.jpg" alt="Portrait of Ferdinand Hartmann">
             </div>
         </div>
     </header>
 
     <main id="main-content">
-        <section class="section intro-section" aria-label="Project focus">
-            <div class="section-heading">
-                <p class="section-kicker">Overview</p>
-                <h2>Selected robotics systems</h2>
-            </div>
-            <div class="focus-grid">
-                <article>
-                    <span>01</span>
-                    <h3>Collaborative robotics</h3>
-                    <p>Physical human-robot collaboration, teleoperation, and robot assistance under uncertainty.</p>
-                </article>
-                <article>
-                    <span>02</span>
-                    <h3>Learning and planning</h3>
-                    <p>Deep active inference, hierarchical reinforcement learning, and language-driven task planning.</p>
-                </article>
-                <article>
-                    <span>03</span>
-                    <h3>Deployment</h3>
-                    <p>ROS 2 systems, perception pipelines, real robot experiments, and competition-ready integration.</p>
-                </article>
-            </div>
-        </section>
-
         <section class="section projects-section" id="projects">
             <div class="section-heading">
-                <p class="section-kicker">Projects</p>
-                <h2>Project links</h2>
+                <p class="section-kicker">Project links</p>
+                <h2>Projects</h2>
             </div>
 
             <div class="project-grid">
                 <article class="project-card" id="hrc-active-inference">
-                    <a class="project-media" href="https://ferdinandhartmann.github.io/HRC-Object-Manipulation-Using-Deep-Active-Inference/" aria-label="Open HRC Object Manipulation project website">
-                        <img src="./assets/previews/hrc-active-inference.jpg" alt="Franka robot collaborative manipulation experiment preview">
-                    </a>
                     <div class="project-copy">
                         <div class="project-index">01</div>
                         <p class="project-type">Master thesis - pHRC</p>
                         <h3>HRC Object Manipulation Using Deep Active Inference</h3>
                         <p>Real-time deep active inference for physical human-robot collaboration with a Franka Research 3 arm.</p>
                         <div class="project-links">
-                            <a class="button primary" href="https://ferdinandhartmann.github.io/HRC-Object-Manipulation-Using-Deep-Active-Inference/">Website</a>
+                            <a class="button primary" href="https://ferdinandhartmann.github.io/HRC-Object-Manipulation-Using-Deep-Active-Inference/" target="_blank" rel="noopener">Website</a>
                         </div>
                     </div>
-                </article>
-
-                <article class="project-card" id="llm-task-planner">
-                    <a class="project-media" href="https://humanoid-challenge.github.io/LLM-Task-Planner-for-Humanoids/" aria-label="Open LLM Task Planner for Humanoids project website">
-                        <img src="./assets/previews/llm-task-planner.svg" alt="Humanoid task planner preview graphic">
+                    <a class="project-media" href="https://ferdinandhartmann.github.io/HRC-Object-Manipulation-Using-Deep-Active-Inference/" target="_blank" rel="noopener" aria-label="Open HRC Object Manipulation project website">
+                        <img src="./assets/previews/hrc-active-inference.jpg" alt="Franka robot collaborative manipulation experiment preview">
                     </a>
-                    <div class="project-copy">
-                        <div class="project-index">02</div>
-                        <p class="project-type">Humanoids - task planning</p>
-                        <h3>LLM Task Planner for Humanoids</h3>
-                        <p>Natural-language task planning for humanoid robot behaviors using an LLM-guided planning interface.</p>
-                        <div class="project-links">
-                            <a class="button primary" href="https://humanoid-challenge.github.io/LLM-Task-Planner-for-Humanoids/">Website</a>
-                        </div>
-                    </div>
                 </article>
 
                 <article class="project-card" id="vision-pro-teleop">
-                    <a class="project-media" href="https://ferdinandhartmann.github.io/visionProTeleop/" aria-label="Open VisionProTeleop project website">
-                        <img src="./assets/previews/vision-pro-teleop.svg" alt="Vision Pro teleoperation preview graphic">
-                    </a>
                     <div class="project-copy">
-                        <div class="project-index">03</div>
+                        <div class="project-index">02</div>
                         <p class="project-type">Teleoperation - mixed reality</p>
                         <h3>VisionProTeleop for Collaborative Robots</h3>
                         <p>Apple Vision Pro teleoperation pipeline for collaborative robots with hand tracking, robot feedback, and ROS 2 control.</p>
                         <div class="project-links">
-                            <a class="button primary" href="https://ferdinandhartmann.github.io/visionProTeleop/">Website</a>
+                            <a class="button primary" href="https://ferdinandhartmann.github.io/visionProTeleop/" target="_blank" rel="noopener">Website</a>
                         </div>
                     </div>
-                </article>
-
-                <article class="project-card" id="go2-fetch">
-                    <a class="project-media" href="https://ferdinandhartmann.github.io/go2_fetch_rl/" aria-label="Open Go2 Fetch project website">
-                        <img src="./assets/previews/go2-fetch.svg" alt="Unitree Go2 object pushing preview graphic">
+                    <a class="project-media" href="https://ferdinandhartmann.github.io/visionProTeleop/" target="_blank" rel="noopener" aria-label="Open VisionProTeleop project website">
+                        <img src="./assets/previews/vision-pro-teleop.png" alt="Vision Pro teleoperation project preview">
                     </a>
+                </article>
+                
+                <article class="project-card" id="go2-fetch">
                     <div class="project-copy">
-                        <div class="project-index">04</div>
+                        <div class="project-index">03</div>
                         <p class="project-type">Reinforcement learning - quadruped</p>
                         <h3>Go2 Fetch</h3>
                         <p>Hierarchical reinforcement learning for autonomous object pushing with a Unitree Go2 robot.</p>
                         <div class="project-links">
-                            <a class="button primary" href="https://ferdinandhartmann.github.io/go2_fetch_rl/">Website</a>
+                            <a class="button primary" href="https://ferdinandhartmann.github.io/go2_fetch_rl/" target="_blank" rel="noopener">Website</a>
                         </div>
                     </div>
+                    <a class="project-media" href="https://ferdinandhartmann.github.io/go2_fetch_rl/" target="_blank" rel="noopener" aria-label="Open Go2 Fetch project website">
+                        <img src="./assets/previews/go2-fetch.webp" alt="Unitree Go2 object pushing project preview">
+                    </a>
+                </article>
+
+                <article class="project-card" id="llm-task-planner">
+                    <div class="project-copy">
+                        <div class="project-index">04</div>
+                        <p class="project-type">Humanoids - task planning</p>
+                        <h3>LLM Task Planner for Humanoids</h3>
+                        <p>Natural-language task planning for humanoid robot behaviors using an LLM-guided planning interface.</p>
+                        <div class="project-links">
+                            <a class="button primary" href="https://humanoid-challenge.github.io/LLM-Task-Planner-for-Humanoids/" target="_blank" rel="noopener">Website</a>
+                        </div>
+                    </div>
+                    <a class="project-media" href="https://humanoid-challenge.github.io/LLM-Task-Planner-for-Humanoids/" target="_blank" rel="noopener" aria-label="Open LLM Task Planner for Humanoids project website">
+                        <img src="./assets/previews/llm-task-planner.webp" alt="Humanoid task planner project preview">
+                    </a>
                 </article>
 
                 <article class="project-card" id="jemaro-days">
-                    <a class="project-media" href="https://github.com/ferdinandhartmann/jemaro_days_2025" aria-label="Open JEMARO Days 2025 GitHub repository">
-                        <img src="./assets/previews/jemaro-days.svg" alt="Autonomous car LiDAR path planning preview graphic">
-                    </a>
                     <div class="project-copy">
                         <div class="project-index">05</div>
                         <p class="project-type">Autonomous driving - ROS 2</p>
                         <h3>JEMARO Days 2025</h3>
                         <p>ROS 2 LiDAR cone detection and path planning for a real autonomous car challenge, built by the first-place team.</p>
                         <div class="project-links">
-                            <a class="button primary" href="https://github.com/ferdinandhartmann/jemaro_days_2025">Repository</a>
+                            <a class="button primary" href="https://github.com/ferdinandhartmann/jemaro_days_2025" target="_blank" rel="noopener">Repository</a>
                         </div>
                     </div>
+                    <a class="project-media" href="https://github.com/ferdinandhartmann/jemaro_days_2025" target="_blank" rel="noopener" aria-label="Open JEMARO Days 2025 GitHub repository">
+                        <img src="./assets/previews/jemaro-days.jpg" alt="JEMARO Days autonomous car RViz project preview">
+                    </a>
+                </article>
+
+                <article class="project-card" id="robotics-cup">
+                    <div class="project-copy">
+                        <div class="project-index">06</div>
+                        <p class="project-type">Eurobot - ROS 2</p>
+                        <h3>Eurobot Competition 2025</h3>
+                        <p>Competition software stack for the Eurobot France 2025 mobile robot, combining ROS 2 autonomy on Raspberry Pi with ESP32-based low-level actuation.</p>
+                        <div class="project-links">
+                            <a class="button primary" href="https://github.com/ECN-Nantrobot/2024-2025-Robotics-cup" target="_blank" rel="noopener">Repository</a>
+                        </div>
+                    </div>
+                    <a class="project-media" href="https://github.com/ECN-Nantrobot/2024-2025-Robotics-cup" target="_blank" rel="noopener" aria-label="Open 2024-2025 Robotics Cup GitHub repository">
+                        <img src="./assets/previews/robotics-cup.jpg" alt="Eurobot France 2025 robot team project preview">
+                    </a>
                 </article>
             </div>
         </section>
     </main>
 
     <footer class="site-footer" id="contact">
-        <p>Ferdinand Hartmann - Projects overview - <span id="current-year">2026</span></p>
-        <a href="https://github.com/ferdinandhartmann">github.com/ferdinandhartmann</a>
+        <p>Ferdinand Hartmann - Project portfolio - <span id="current-year">2026</span></p>
+        <div class="footer-links">
+            <a class="footer-icon-link" href="https://github.com/ferdinandhartmann" target="_blank" rel="noopener">
+                <svg aria-hidden="true"><use href="#icon-github"></use></svg>
+                <span>GitHub</span>
+            </a>
+            <a class="footer-icon-link" href="https://www.linkedin.com/in/ferdinand-hartmann-709aa4204" target="_blank" rel="noopener">
+                <svg aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+                <span>LinkedIn</span>
+            </a>
+        </div>
     </footer>
 </body>
 </html>
