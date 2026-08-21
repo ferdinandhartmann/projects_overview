@@ -245,8 +245,8 @@ h1 {
     min-height: 0;
 }
 
-.project-index {
-    color: var(--accent-2);
+.project-card .project-index {
+    color: #d79a22;
     font-size: 0.82rem;
     font-weight: 850;
     letter-spacing: 0.12em;
@@ -312,6 +312,11 @@ h1 {
     filter: brightness(1.12) contrast(1.01) saturate(1.01);
 }
 
+#go2-fetch .project-media img {
+    object-fit: cover;
+    object-position: center;
+}
+
 #robotics-cup .project-media img {
     transform: scale(2.2);
     object-position: center 100%;
@@ -327,6 +332,9 @@ h1 {
     object-position: center 100%;
     transform-origin: center 70%;
 }
+
+/*
+Previous Go2 split preview logic, preserved for possible reuse.
 
 .split-preview {
     position: absolute;
@@ -407,6 +415,7 @@ h1 {
     content: "";
     transform: translateY(-50%) rotate(45deg);
 }
+*/
 
 .site-footer {
     display: flex;
